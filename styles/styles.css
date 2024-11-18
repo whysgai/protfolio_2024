@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.intro {
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.portfolio-tile {
+    display: flex;
+    flex-direction: row;
+    height: 25vh;
+    align-items: center;
+}
+
+.portfolio-tile:nth-child(1) {
+    background-color: lightsteelblue;
+}
+
+.portfolio-tile:nth-child(2) {
+    background-color: lightsteelblue;
+}
+
+.portfolio-tile:nth-child(3) {
+    background-color: lightsteelblue;
+}
+
+.portfolio-tile-body {
+    flex: 1;
+    padding: 100px;
+}
+
+.portfolio-tile-controls {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-button {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background-color: lightgray;
+    border-left: thin solid black;
+}
+
+.portfolio-button:nth-child(2) {
+    border: thin solid black;
+    border-right: none;
+}
+
+.portfolio-button a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    padding: 100px 0;
+}
+
+.footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    max-width: 80em;
+    width: 100%;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    border-bottom: solid black 1px;
+}
