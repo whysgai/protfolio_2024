@@ -80,6 +80,8 @@ body {
 
 .contact-icon:hover { 
     transform: scale(1.15) perspective(1px);
+    border-left: thin solid black;
+    border-right: thin solid black;
 }
 
 .container {

@@ -1,0 +1,35 @@
+.main {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.work-experience {
+    width: 60%;
+}
+
+.work-experience div {
+    display: flex;
+    flex-direction: column;
+}
+
+.work-experience ul {
+    margin-top: 0px;    
+    padding-inline-start: 20px;
+}
+
+.work-experience li {
+} 
+
+.sidebar {
+    width: 40%;
+}
+
+.skills, .education {
+    border: thin solid black;
+}
+
+.education li > div {
+    display: flex;
+    flex-direction: column;
+}
