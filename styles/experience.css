@@ -1,11 +1,19 @@
+ul {
+    margin-top: 0px;    
+    padding-inline-start: 20px;
+}
+
 .main {
     display: flex;
     justify-content: center;
-    margin-bottom: 60px;
+    padding: 60px 0;
+    gap: 10px;
 }
 
 .work-experience {
-    width: 60%;
+    width: 65%;
+    border: thin solid black;
+    padding: 0 30px 30px;
 }
 
 .work-experience div {
@@ -13,20 +21,29 @@
     flex-direction: column;
 }
 
-.work-experience ul {
-    margin-top: 0px;    
-    padding-inline-start: 20px;
+.exp-company {
+    font-style: italic;
+}
+
+.exp-title {
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .work-experience li {
 } 
 
 .sidebar {
-    width: 40%;
+    width: 35%;
+}
+
+.sidebar h2 {
+    font-size: 1.25em;
+    margin-bottom: 0;
 }
 
 .skills, .education {
-    border: thin solid black;
+    padding: 0 30px;
 }
 
 .education li > div {

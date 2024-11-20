@@ -53,6 +53,12 @@ body {
     padding: 100px 0;
 }
 
+.footer > span {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
 .footer > div {
     display: flex;
     flex-direction: column;
@@ -62,7 +68,7 @@ body {
 .contact-tiles {
     display: flex;
     flex-direction: row;
-    margin-top: 16px;
+    margin-top: 32px;
 }
 
 .contact-icon {
