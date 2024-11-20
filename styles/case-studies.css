@@ -1,0 +1,13 @@
+.case-study section:nth-child(odd) {
+    border: thin solid black;
+}
+
+.heading {
+    padding: 30px;
+    margin-top: 60px;
+}
+
+.section {
+    padding: 30px
+}
+
