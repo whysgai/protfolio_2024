@@ -25,9 +25,12 @@ ul {
     font-style: italic;
 }
 
-.exp-title {
+.exp-title, .skills-title, .edu-title  {
+    font-size: 1em;
+    margin-bottom: 0;
     font-weight: bold;
     text-transform: uppercase;
+    margin-top: 0;
 }
 
 .work-experience li {
@@ -37,16 +40,20 @@ ul {
     width: 35%;
 }
 
-.sidebar h2 {
-    font-size: 1.25em;
-    margin-bottom: 0;
-}
-
 .skills, .education {
     padding: 0 30px;
+}
+
+.skills ul, .education ul {
+    list-style-type: none;
+    padding-inline-start: 0;
 }
 
 .education li > div {
     display: flex;
     flex-direction: column;
+}
+
+.education span:nth-child(3) {
+    font-style: italic;
 }

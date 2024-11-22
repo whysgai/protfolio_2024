@@ -156,7 +156,7 @@ body {
     text-transform: uppercase;
 }
 
-.montserrat-tooling {
+.tooling-text {
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -164,11 +164,19 @@ body {
     text-transform: uppercase;
 }
 
-.montserrat-title {
+.title-text {
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
+}
+
+.subtitle-text {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
 }
 
 .montserrat-regular {
