@@ -4,6 +4,9 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <!-- <meta http-equiv="refresh" content="0; url=https://wrcohen.com" /> -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Montserrat:wght@100..900&family=Poiret+One&family=Vollkorn+SC:wght@400;600;700;900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
         <link href="../../styles/styles.css" rel="stylesheet"/>
         <link href="../../styles/case-studies.css" rel="stylesheet"/>
@@ -11,19 +14,27 @@
     </head>
     <body>
         <div class="header container">
-            <a class="header-name link" href="../../index.html">Will&nbsp;<span class="header-middle-r">R</span>&nbsp;Cohen</a>
+            <a class="header-name link tooling-text" href="../../index.html">Will&nbsp;<span class="header-middle-r">R</span>&nbsp;Cohen</a>
             <div class="header-buttons">
-                <span class="header-nav-button link">Projects</span>
-                <a class="header-nav-button link" href="../experience.html">Experience</a>
-                <a class="header-nav-button link" href="../about.html">About</a>
+                <a class="header-nav-button link tooling-text" href="../../index.html#Projects">Projects</a>
+                <a class="header-nav-button link tooling-text" href="../experience.html">Experience</a>
+                <a class="header-nav-button link tooling-text" href="../about.html">About</a>
             </div>     
         </div>
         <div class="divider"></div>
         <div class="case-study container">
             <section class="heading">
-                <h1 class="heading-title">MassPass</h1>
-                <span class="heading-subtitle">A digital COVID-19 vaccination and test result status management tool</span>
-                <span class="heading-data">Northeastern University—Fall 2021</span>
+                <div>
+                    <div class="heading-information">
+                        <h1 class="heading-title">MassPass</h1>
+                        <span class="heading-subtitle">A digital COVID-19 vaccination and test result status management tool</span>
+                        <span class="heading-data">Northeastern University—Fall 2021</span>
+                    </div>
+                    <div class="portfolio-heading-controls">
+                        <div class="portfolio-button"><a href="#" class="link tooling-text">Repository<i class="portfolio-button-icon bi bi-github"></i></a></div>
+                        <div class="portfolio-button"><a href="#" class="link tooling-text">Demo<i class="portfolio-button-icon bi bi-play-circle-fill"></i></a></div>
+                    </div>
+                </div>
             </section>
             <section class="section">
                 <h2 class="section-title">The Project</h2>
@@ -34,19 +45,29 @@
             <section class="section">
                 <h2 class="section-title">The Process</h2>
                 <p class="section-para">We began with a contextual inquiry, surveying a number of representative individuals about what they would expect from a proof of vaccination application, problems they expected to solve, and how they might fit the application into their lives. We consolidated this information using affinity diagrams, formulating a list of requirements and working up a series of user personas.</p>
+                <p class="section-para">We distilled this list into a task inventory: log in/sign up, store and display vaccination information, record and access test result history, schedule new tests at a state provider, and manage a shared household— a behavior not included in the original brief that ended up being the most complex and engaging part of the design.</p>
+                <p class="section-para">After reviewing our task inventory and discussing relevant design metaphors and inspirations, we separated to develop individual sketches of our interface. These were rough pen-and-ink exercises, but even here some trends emerged which would remain present through to the final design, especially the radial menu. We then regrouped and combined our rough sketches into a cohesive plan using a digital whiteboard tool.</p>
+                <p class="section-para">We proceeded to develop the sketches into simple wireframes, establishing a basic layout for the key tasks of displaying vaccination status, entering vaccination information, and household management.</p>
+                <p class="section-para">From this point we expanded our wireframing into an early mock-up. We settled on certain design components—a cool, calming color-scheme; standard button, input, and text styling; a pop-out hamburger menu for navigation; a radial menu for profile and household management—and built out the UI for all of our tasks.</p>
+                <p class="section-para">We then put our design through its paces by conducting a summative evaluation. We had fifteen testers work through a series of scenarios, navigating our application and determining how easily they were able to fulfill the tasks of our brief. We recorded a significant amount of empirical data as well as a Systems Usability Scale survey and analyzed this to determine the strengths and weaknesses of our approach.</p>
+                <p class="section-para">Armed with this empirical evidence and stripped of our preconceptions and attachments, we went to work updating our design for a final submission. These changes ranged from the trivial—copy updates, changing clickable text into buttons, shifting components within a screen—to the complicated—implementing new menus to collect similar actions, updating all of our input field to include external labels rather than internal placeholders. We were ultimately able to implement every piece of feedback from our user evaluation for our final design and were proud with the final results.</p>
             </section>
             <section class="section">
                 <h2 class="section-title">The Result</h2>
-                <p class="section-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, tortor at tristique congue, nisi ante congue justo, a consectetur lorem dolor nec turpis. Praesent id dolor commodo, vulputate risus id, ullamcorper turpis. Ut mauris nisi, imperdiet ac magna lobortis, ultrices malesuada enim. Aenean in sagittis dui. Aliquam erat volutpat. Donec eleifend urna et diam cursus suscipit. Donec vitae mauris nibh. Donec ultricies lectus ut mollis volutpat. Nullam non ipsum porta, tristique justo vel, posuere felis. Aliquam libero lacus, convallis id ex eu, interdum condimentum purus. Sed auctor fermentum elit, ut bibendum est mollis sit amet. Aliquam commodo pulvinar maximus. Suspendisse semper vitae magna non pharetra.</p>
-                <p class="section-para">Morbi eget pellentesque est. Cras tempus dolor et varius mattis. Sed sed libero velit. Vestibulum commodo rutrum semper. Donec imperdiet metus in lorem efficitur, sit amet ornare diam fermentum. Etiam quis lorem fringilla quam pellentesque porttitor. Sed vitae ex eu velit rhoncus imperdiet. Aliquam mollis semper felis in laoreet.</p>
-                <p class="section-para">Vivamus diam diam, eleifend vel volutpat ut, interdum at tellus. Duis molestie lorem nec quam volutpat auctor. Donec accumsan libero ut justo blandit elementum. Vivamus vestibulum neque vel sapien mattis suscipit. Donec sed diam sed nibh condimentum rhoncus. Proin sit amet lacinia quam. Maecenas ullamcorper odio vel nulla luctus accumsan. Nulla mollis sollicitudin faucibus. Cras rutrum orci a erat luctus interdum. Curabitur lobortis elit sapien, ut sollicitudin dolor varius ut. Aliquam et massa arcu.</p>
+                <p class="section-para">The final design met the requirements of the original brief and extended to address scenarios discovered in our early user surveys. We iterated over a series of decisions, pursuing an interface that allowed for the utmost clarity and ease of use. We tested this with a battery of empirical and subjective evaluations, before producing a successful, thoughtfully designed final product. We created an interactive walkthrough and an overview of the components of our design iterations to review and explore our design.</p>
+            </section>
+            <section class="section">
+                <h2 class="section-title">Section Title</h2>
+                <p class="section-para">Words</p>
+                <p class="section-para">Words</p>
+                <p class="section-para">Words</p>
             </section>
         </div>
         <div class="divider"></div>
         <div class="footer container">
-            <span>Get in touch</span>
+            <span class="vollkorn-text">Get in touch</span>
             <div>
-                <span>Drop me a line&mdash;I'm always happy to talk.</span>
+                <span class="montserrat-regular">Drop me a line&mdash;I'm always happy to talk.</span>
                 <div class="contact-tiles">   
                     <a class="contact-icon link bi bi-envelope-paper-fill" href="#" aria-label="email"></a>
                     <a class="contact-icon link bi bi-linkedin" href="#" aria-label="LinkedIn"></a>                
